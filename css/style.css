@@ -1,0 +1,35 @@
+/* ==================== Load Font(s) ==================== */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* ==================== Page Style ==================== */
+:root
+{
+    --bg-col: #f0f0f0;
+    --canvas-bg-col: #213555;
+}
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    background-color: var(--bg-col);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.display
+{
+    font-size: 12px;
+    padding: 5px 0;
+    color: #111;
+}
+#canvas
+{
+    background-color: var(--canvas-bg-col);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+}
